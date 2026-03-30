@@ -1,5 +1,8 @@
-BDL Module 03 - Python Ingestion (Mentor Repository)
-Структура репозитория
+# BDL Module 03 - Python Ingestion (Mentor Repository)
+
+## Структура репозитория
+
+```
 bdl-module-03-python-ingestion-mentor/
 ├── homework/
 │   ├── lesson_1_good.py
@@ -8,18 +11,27 @@ bdl-module-03-python-ingestion-mentor/
 │   ├── lesson_2_perfect.py
 │   └── run.py
 └── README.md
-Назначение
+```
+
+## Назначение
+
 Этот репозиторий содержит:
+- Эталонные решения для проверки (good/perfect)
+- Тестовый раннер `run.py` для автоматической проверки
 
-Эталонные решения для проверки (good/perfect)
-Тестовый раннер run.py для автоматической проверки
-Как работает
-Студенты форкают этот репозиторий
-Добавляют свои решения в файлы lesson_X.py
-SandboxApi запускает run.py для проверки решений
-Результаты сохраняются в results.json
-Тестирование
+## Как работает
+
+1. Студенты форкают этот репозиторий
+2. Добавляют свои решения в файлы `lesson_X.py`
+3. SandboxApi запускает `run.py` для проверки решений
+4. Результаты сохраняются в `results.json`
+
+## Тестирование
+
 Запуск тестов:
-
+```bash
 python homework/run.py
-Результаты будут в homework/TestResults/results.json
+```
+
+Результаты будут в `homework/TestResults/results.json`
+
